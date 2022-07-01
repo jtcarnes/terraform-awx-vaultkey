@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.4](https://github.com/jtcarnes/terraform-awx-vaultkey/compare/v1.0.3...v1.0.4) (2022-07-01)
+
+
+### Bug Fixes
+
+* **Outputs:** :bug: Fixed awx mache credentials pointing to the vault credential instead ([e925fe3](https://github.com/jtcarnes/terraform-awx-vaultkey/commit/e925fe36dc1ec1b888cfbde0a027ecc4e1ef69ca))
+
 ### [1.0.3](https://github.com/jtcarnes/terraform-awx-vaultkey/compare/v1.0.2...v1.0.3) (2022-07-01)
 
 
