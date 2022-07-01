@@ -9,7 +9,7 @@ output "awx_ssh_key_pair" {
 
 output "awx_machine_credential_id" {
   description = "ID of the created machine credential."
-  value       = awx_credential.this.id
+  value       = awx_credential_machine.this.id
 }
 
 output "vault_credential_id" {
