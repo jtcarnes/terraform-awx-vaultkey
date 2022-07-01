@@ -44,6 +44,7 @@ resource "awx_credential_input_source" "this" {
   metadata = {
     role             = var.vault_backend_role_name
     public_key       = local.ssh_public_key
+    auth_path        = var.vault_auth_path
     secret_path      = var.vault_secret_path
     valid_principals = local.valid_principals
   }

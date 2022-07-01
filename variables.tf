@@ -17,7 +17,7 @@ variable "vault_secret_path" {
 
 variable "vault_auth_path" {
   type        = string
-  default     = null
+  default     = ""
   description = "Path to authentication method on Vault backend."
 }
 
