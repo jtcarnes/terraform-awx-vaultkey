@@ -40,7 +40,7 @@ No modules.
 | <a name="input_awx_machine_credential_name"></a> [awx\_machine\_credential\_name](#input\_awx\_machine\_credential\_name) | Name for the machine credential. | `string` | n/a | yes |
 | <a name="input_awx_machine_credential_username"></a> [awx\_machine\_credential\_username](#input\_awx\_machine\_credential\_username) | Username for the AWX credential. | `string` | `null` | no |
 | <a name="input_awx_organization_id"></a> [awx\_organization\_id](#input\_awx\_organization\_id) | ID of the AWX organization. | `number` | n/a | yes |
-| <a name="input_vault_auth_path"></a> [vault\_auth\_path](#input\_vault\_auth\_path) | Path to authentication method on Vault backend. | `string` | `"approle"` | no |
+| <a name="input_vault_auth_path"></a> [vault\_auth\_path](#input\_vault\_auth\_path) | Path to authentication method on Vault backend. | `string` | `null` | no |
 | <a name="input_vault_authentication_config"></a> [vault\_authentication\_config](#input\_vault\_authentication\_config) | Authentication configuration for AWX to authenticate to Vault. Valid options are "token", "role\_id" and "secret\_id", or "kubernetes\_role". Optional configs are "cacert", "default\_auth\_path", and "namespace". | `map(string)` | n/a | yes |
 | <a name="input_vault_backend_role_name"></a> [vault\_backend\_role\_name](#input\_vault\_backend\_role\_name) | Name of the Vault role used to sign the ssh key. | `string` | n/a | yes |
 | <a name="input_vault_credential_name"></a> [vault\_credential\_name](#input\_vault\_credential\_name) | Name for the Vault credential in AWX. | `string` | n/a | yes |
