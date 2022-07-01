@@ -10,10 +10,6 @@ terraform {
       source  = "denouche/awx"
       version = ">= 0.15.0"
     }
-    vault = {
-      source  = "hashicorp/vault"
-      version = ">= 3.0.0"
-    }
     tls = {
       source  = "hashicorp/tls"
       version = ">= 3.0.0"

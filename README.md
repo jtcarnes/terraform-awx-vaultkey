@@ -11,7 +11,6 @@ Terraform module to create ssh key for Ansible AWX using Hashicorp Vaults ssh ce
 | <a name="requirement_awx"></a> [awx](#requirement\_awx) | >= 0.15.0 |
 | <a name="requirement_local"></a> [local](#requirement\_local) | >= 1.0 |
 | <a name="requirement_tls"></a> [tls](#requirement\_tls) | >= 3.0.0 |
-| <a name="requirement_vault"></a> [vault](#requirement\_vault) | >= 3.0.0 |
 
 ## Providers
 
